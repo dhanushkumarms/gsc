@@ -1,1 +1,1 @@
-https://dhanushkumarms.github.io/getsetc/
+https://dhanushkumarms.github.io/gsc/
