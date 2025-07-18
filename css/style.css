@@ -23,7 +23,7 @@ body {
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 6px;
-  width: 100%;
+  width :100%;
 }
 .auth-container button {
   background-color: #2563eb;
@@ -93,4 +93,38 @@ body {
   0% { transform: translateX(-50%) translateY(-10%); }
   50% { transform: translateX(50%) translateY(10%); }
   100% { transform: translateX(-50%) translateY(-10%); }
+}
+
+/* Ensure input fields are same width */
+.auth-container input[type="email"],
+.auth-container input[type="password"],
+.auth-container input[type="text"] {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Google button styles */
+
+/* Link text styling */
+.link-text a {
+  color: #2563eb;
+  text-decoration: underline;
+}
+
+.google-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+  border-radius: 6px;
+  background-color: white;
+  color: black;
+  border: 1px solid #ccc;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.google-btn svg {
+  display: inline-block;
 }
