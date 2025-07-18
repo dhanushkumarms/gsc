@@ -23,6 +23,7 @@ body {
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 6px;
+  width: 100%;
 }
 .auth-container button {
   background-color: #2563eb;
